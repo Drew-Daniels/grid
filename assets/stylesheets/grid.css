@@ -59,7 +59,9 @@ html {
   }
 /* .container class is used to determine the max width of the grid */
 .container {
-	max-width: 1140px;
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
 	display: flex;
 }
 /* debug grid units */
@@ -104,6 +106,7 @@ and make calculations more maintable */
 .grid-base {
 	display: flex;
 	width: 100%;
+	justify-content: center;
 }
 .grid-debug .col {
 	width: calc((100% - 20px * 12) / 12);
