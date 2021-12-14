@@ -47,3 +47,73 @@ table {
 	border-spacing: 0;
 }
 /* CSS RESET ^ */
+/* Framework Code */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+/* .container class is used to determine the max width of the grid */
+.container {
+	max-width: 1140px;
+	display: flex;
+}
+/* debug grid units */
+.db-g1 {
+    background-color: red;
+}
+.db-g2 {
+    background-color: blue;
+}
+.db-g3 {
+	background-color: blueviolet;
+}
+.db-g4 {
+	background-color: burlywood;
+}
+.db-g5 {
+	background-color: cadetblue;
+}
+.db-g6 {
+	background-color: chartreuse;
+}
+.db-g7 {
+	background-color: chocolate;
+}
+.db-g8 {
+	background-color: coral;
+}
+.db-g9 {
+	background-color: darkorchid;
+}
+.db-g10 {
+	background-color: crimson;
+}
+.db-g11 {
+	background-color: cyan;
+}
+.db-g12 {
+	background-color: darkgoldenrod;
+}
+/* TODO install SASS or another preprocessor to save values in variables
+and make calculations more maintable */
+.grid-base {
+	display: flex;
+	width: 100%;
+}
+.grid-debug .col {
+	width: calc((100% - 20px * 12) / 12);
+	height: 80px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.two-col-grid .col{
+    width: 50%;
+}
+.three-col-grid .col {
+	width: 33.333%;
+}
