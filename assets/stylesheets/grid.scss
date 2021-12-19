@@ -18,9 +18,10 @@ $width-max: 1400px;
 	width: 100%;
 	justify-content: center;
 }
-.two-col-grid .col{
-    width: 50%;
-}
-.three-col-grid .col {
-	width: 33.333%;
+// Dynamically set column width percentages for lengths 1 (out of 12) to 12 (out of 12)
+@for $value from 1 through 12 {
+	$width: percentage(1/$value);
+	.col-#{$value} {
+		width: $width;
+	}
 }
