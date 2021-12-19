@@ -109,16 +109,19 @@ table {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
 }
 
 .row {
   display: flex;
   width: 100%;
   justify-content: center;
+}
+
+.gray-bg {
+  background-color: #222222;
 }
 
 .grid-base {
@@ -176,7 +179,7 @@ table {
 }
 
 nav {
-  height: 50px;
+  height: 53px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -217,6 +220,12 @@ nav {
 .nav-li {
   display: flex;
   align-items: center;
+  margin: 0 0.5rem;
+}
+
+.featured-sidebar {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=grid.css.map */

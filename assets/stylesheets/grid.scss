@@ -4,22 +4,25 @@
 @use 'debug';
 @use 'sass:math';
 // VARIABLES
-$height-nav: 50px;
+$height-nav: 53px;
 $nav-item-dim: 45px;
 $pf-pic-dim: 29px;
 $width-margin: 10px;
-$width-max: 1400px;
+$width-max: 1600px;
+$featured-gray: #222222;
 // CLASSES
 .container {
 	max-width: $width-max;
 	margin-left: auto;
 	margin-right: auto;
-	display: flex;
 }
 .row {
 	display: flex;
 	width: 100%;
 	justify-content: center;
+}
+.gray-bg {
+	background-color: $featured-gray;
 }
 .grid-base {
 	display: flex;
@@ -67,4 +70,9 @@ nav {
 .nav-li {
 	display: flex;
 	align-items: center;
+	margin: 0 .5rem;
+}
+.featured-sidebar {
+	display: flex;
+	flex-direction: column;
 }
