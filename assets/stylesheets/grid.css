@@ -228,4 +228,14 @@ nav {
   flex-direction: column;
 }
 
+.discover-album-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.discover-album {
+  display: flex;
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=grid.css.map */
