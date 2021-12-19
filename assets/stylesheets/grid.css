@@ -406,4 +406,25 @@ footer span {
   display: flex;
 }
 
+.new-and-notable-section {
+  background: #eef2f3;
+}
+
+.bandcamp-daily-section {
+  background: #eef2f3;
+}
+
+.newsletter-section {
+  padding: 4rem 0;
+  background: #eef2f3;
+}
+
+.discover-section {
+  background: #eef2f3;
+}
+
+.newsletter-container {
+  justify-content: center;
+}
+
 /*# sourceMappingURL=grid.css.map */

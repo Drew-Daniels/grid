@@ -20,6 +20,8 @@ $black: #000;
 $discover-genre-color: rgb(66, 160, 189);
 $discover-sort-color: rgb(67, 144, 168);
 $discover-format-color: rgb(66, 129, 148);
+$bg-color-1: #ffffff;
+$bg-color-2: #eef2f3;
 // CLASSES
 h1 {font-size: fonts.$xxxlarge;}
 h2 {font-size: fonts.$xxlarge;}
@@ -206,4 +208,20 @@ footer span {
 }
 .filter-container {
 	display: flex;
+}
+.new-and-notable-section {
+	background: $bg-color-2;
+}
+.bandcamp-daily-section {
+	background: $bg-color-2;
+}
+.newsletter-section {
+	padding: 4rem 0;
+	background: $bg-color-2;
+}
+.discover-section {
+	background: $bg-color-2;
+}
+.newsletter-container {
+	justify-content: center;
 }
