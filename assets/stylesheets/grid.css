@@ -402,4 +402,8 @@ footer span {
   font-size: 18px;
 }
 
+.filter-container {
+  display: flex;
+}
+
 /*# sourceMappingURL=grid.css.map */
