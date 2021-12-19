@@ -319,6 +319,12 @@ footer span {
   background-position: center;
 }
 
+.dots-right {
+  background: url("../pictures/dots-r.png") no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
 .banner {
   padding: 2rem 0;
   justify-content: center;
