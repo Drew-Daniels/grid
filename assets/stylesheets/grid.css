@@ -257,4 +257,8 @@ footer span {
   color: #abc1c7;
 }
 
+.footer-list li {
+  margin: 10px 0;
+}
+
 /*# sourceMappingURL=grid.css.map */
