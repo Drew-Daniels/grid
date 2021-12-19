@@ -324,4 +324,31 @@ footer span {
   justify-content: center;
 }
 
+.featured-album-base {
+  flex-direction: column;
+  background-position: 50% 50%;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.featured-album-1 {
+  background: url("../pictures/landing-page-1.jpg") no-repeat;
+}
+
+.featured-album-2 {
+  background: url("../pictures/landing-page-2.jpg") no-repeat;
+}
+
+.featured-album-3 {
+  background: url("../pictures/landing-page-3.jpg") no-repeat;
+}
+
+.featured-album-4 {
+  background: url("../pictures/landing-page-4.jpg") no-repeat;
+}
+
+.featured-details {
+  padding: 30% 0 5% 10%;
+}
+
 /*# sourceMappingURL=grid.css.map */
