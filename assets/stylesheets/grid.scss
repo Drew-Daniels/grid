@@ -90,12 +90,28 @@ nav {
 	display: flex;
 	flex-direction: column;
 }
+.searchbar-container {
+	flex-grow: 1;
+}
 .searchbar {
 	background-color: $light-gray;
+	width: 60%;
+	height: 90%;
+	font-size: fonts.$font-large;
+	border: none;
+	padding-left: 1rem;
+}
+.searchbar-icon-container {
+	background-color: $light-gray;
+	height: 100%;
+	padding: 0 1rem;
 }
 footer {
 	color: $white;
 	background-color: $bc-blue;
+}
+nav a {
+	text-decoration: none;
 }
 footer a {
 	text-decoration: none;
@@ -106,4 +122,20 @@ footer span {
 }
 .footer-list li {
 	margin: 10px 0;
+}
+.blue-gradient {
+	color: #408ea3;
+	background: -webkit-linear-gradient(left, #6046FE, #1DA0C3);
+		background-color: rgba(0, 0, 0, 0);
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-attachment: scroll;
+		background-image: -webkit-linear-gradient(left, rgb(96, 70, 254), rgb(29, 160, 195));
+		background-size: auto;
+		background-origin: padding-box;
+		background-clip: border-box;
+	padding-right: 10px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
