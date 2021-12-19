@@ -10,6 +10,12 @@ $pf-pic-dim: 29px;
 $width-margin: 10px;
 $width-max: 1600px;
 $featured-gray: #222222;
+$light-gray: #F3F3F3;
+$filler: #eef2f3;
+$bc-blue: #477987;
+$white: #fff;
+$gray: #abc1c7;
+$black: #000;
 // CLASSES
 .container {
 	max-width: $width-max;
@@ -83,4 +89,18 @@ nav {
 .discover-album {
 	display: flex;
 	flex-direction: column;
+}
+.searchbar {
+	background-color: $light-gray;
+}
+footer {
+	color: $white;
+	background-color: $bc-blue;
+}
+footer a {
+	text-decoration: none;
+	color: $white;
+}
+footer span {
+	color: $gray;
 }
