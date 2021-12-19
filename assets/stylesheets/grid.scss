@@ -3,14 +3,12 @@
 @use 'reset';
 @use 'debug';
 @use 'sass:math';
-
 // VARIABLES
 $height-nav: 50px;
 $nav-item-dim: 45px;
 $pf-pic-dim: 29px;
 $width-margin: 10px;
 $width-max: 1400px;
-
 // CLASSES
 .container {
 	max-width: $width-max;
@@ -18,28 +16,31 @@ $width-max: 1400px;
 	margin-right: auto;
 	display: flex;
 }
+.row {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
 .grid-base {
 	display: flex;
 	width: 100%;
 	justify-content: center;
 }
-// col-1 thru col-12
 @for $value from 1 through 12 {
-	$width: percentage(math.div(1, $value));
+	$width: percentage(math.div(1, 12));
 
-	.col-#{$value} {
-		width: $width;
+	.span-#{$value} {
+		width: $width* $value;
 	}
-}
-.col-auto {
-	width: auto;
-	flex-grow: 1;
 }
 nav {
 	height: $height-nav;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
+.col {
+	display: flex;
 }
 .nav-item {
 	height: $nav-item-dim;
@@ -52,10 +53,18 @@ nav {
 	height: $pf-pic-dim;
 	width: $pf-pic-dim;
 }
+.img-container {
+	display: flex;
+	align-items: center;
+}
 .img-container img {
 	max-width: 100%;
 	max-height: 100%;
 }
 .flex-end {
 	justify-content: flex-end;
+}
+.nav-li {
+	display: flex;
+	align-items: center;
 }
