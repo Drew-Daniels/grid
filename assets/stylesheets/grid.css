@@ -277,6 +277,7 @@ nav {
 footer {
   color: #fff;
   background-color: #477987;
+  font-weight: 300;
 }
 
 nav a {
@@ -292,8 +293,30 @@ footer span {
   color: #abc1c7;
 }
 
-.footer-list li {
+.lang-pref-container {
+  display: flex;
+}
+
+.lang-pref-box {
+  background: #3A6A77;
+  padding: 0.5rem;
+}
+
+.footer-col {
+  flex-direction: column;
+  padding: 30px 0 100px 20px;
+}
+
+.footer-list {
   margin: 10px 0;
+}
+
+.footer-list li {
+  margin: 20px 0;
+}
+
+.white-text {
+  color: #fff;
 }
 
 .blue-gradient {
