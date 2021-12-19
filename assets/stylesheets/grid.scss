@@ -17,6 +17,9 @@ $bc-blue-2: #3A6A77;
 $white: #fff;
 $gray: #abc1c7;
 $black: #000;
+$discover-genre-color: rgb(66, 160, 189);
+$discover-sort-color: rgb(67, 144, 168);
+$discover-format-color: rgb(66, 129, 148);
 // CLASSES
 h1 {font-size: fonts.$xxxlarge;}
 h2 {font-size: fonts.$xxlarge;}
@@ -188,4 +191,16 @@ footer span {
 .featured-album-4 {background: url("../pictures/landing-page-4.jpg") no-repeat;}
 .featured-details {
 	padding: 30% 0 5% 10%;
+}
+#discover-genres  {background-color: $discover-genre-color;}
+#discover-sorts   {background-color: $discover-sort-color;}
+#discover-formats {background-color: $discover-format-color;}
+.discover button {
+	border: none;
+	background: transparent;
+	padding: .5rem;
+	color: $white;
+	font-weight: bold;
+	margin-right: 5px;
+	font-size: fonts.$large;
 }

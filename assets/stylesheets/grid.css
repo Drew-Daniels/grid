@@ -380,4 +380,26 @@ footer span {
   padding: 30% 0 5% 10%;
 }
 
+#discover-genres {
+  background-color: #42a0bd;
+}
+
+#discover-sorts {
+  background-color: #4390a8;
+}
+
+#discover-formats {
+  background-color: #428194;
+}
+
+.discover button {
+  border: none;
+  background: transparent;
+  padding: 0.5rem;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 18px;
+}
+
 /*# sourceMappingURL=grid.css.map */
