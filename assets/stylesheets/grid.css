@@ -109,6 +109,22 @@ table {
   display: none;
 }
 
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+strong {
+  font-weight: bold;
+}
+
 .container {
   max-width: 1600px;
   margin-left: auto;
@@ -295,6 +311,17 @@ footer span {
   padding-right: 10px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.dots {
+  background: url("../pictures/dots.png") no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.banner {
+  padding: 2rem 0;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=grid.css.map */

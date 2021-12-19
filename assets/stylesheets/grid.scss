@@ -17,6 +17,10 @@ $white: #fff;
 $gray: #abc1c7;
 $black: #000;
 // CLASSES
+h1 {font-size: fonts.$xxxlarge;}
+h2 {font-size: fonts.$xxlarge;}
+h3 {font-size: fonts.$xlarge;}
+strong { font-weight: bold; }
 .container {
 	max-width: $width-max;
 	margin-left: auto;
@@ -97,7 +101,7 @@ nav {
 	background-color: $light-gray;
 	width: 60%;
 	height: 90%;
-	font-size: fonts.$font-large;
+	font-size: fonts.$large;
 	border: none;
 	padding-left: 1rem;
 }
@@ -138,4 +142,13 @@ footer span {
 	padding-right: 10px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+.dots {
+	background: url("../pictures/dots.png") no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+.banner {
+	padding: 2rem 0;
+	justify-content: center;
 }
