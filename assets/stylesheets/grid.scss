@@ -1,8 +1,12 @@
 // IMPORTS
 @use 'fonts';
 @use 'reset';
+@use 'debug';
+@use 'sass:math';
 
 // VARIABLES
+$height-nav: 50px;
+$height-icon: 50px;
 $width-margin: 10px;
 $width-max: 1400px;
 
@@ -18,10 +22,19 @@ $width-max: 1400px;
 	width: 100%;
 	justify-content: center;
 }
-// Dynamically set column width percentages for lengths 1 (out of 12) to 12 (out of 12)
+// col-1 thru col-12
 @for $value from 1 through 12 {
-	$width: percentage(1/$value);
+	$width: percentage(math.div(1, $value));
+
 	.col-#{$value} {
 		width: $width;
 	}
+}
+nav {
+	height: $height-nav;
+	display: flex;
+	align-items: center;
+}
+.icon {
+	height: $height-icon;
 }
