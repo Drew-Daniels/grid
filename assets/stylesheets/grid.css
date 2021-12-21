@@ -204,6 +204,7 @@ nav {
 
 .col {
   display: flex;
+  margin-right: 10px;
 }
 
 .nav-item {
